@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FarWare — One‑Upload</title>
+    <meta name="description" content="FarWare Genesis — موقع جاهز للنشر برفع واحد فقط" />
+    <style>
+      body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:#0b0f19; color:#e8eefb; }
+      .container { max-width:900px; margin:60px auto; padding:24px; }
+      .card { background:#11172a; border:1px solid #1b2340; border-radius:16px; padding:24px; box-shadow:0 6px 28px rgba(0,0,0,.25); }
+      h1 { margin:0 0 12px; font-size:28px; }
+      p { line-height:1.8; color:#c7d4ff; }
+      .grid { display:grid; gap:16px; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); margin-top:20px;}
+      .tile { background:#0d1326; border:1px solid #18224a; border-radius:14px; padding:16px; }
+      .ok { color:#9effa5; font-weight:700; }
+      .btn { display:inline-block; padding:10px 14px; border-radius:12px; border:1px solid #2541b2; background:#1b2a6b; color:#e8eefb; text-decoration:none; }
+      footer { opacity:.7; font-size:13px; margin-top:22px; }
+      code { background:#0d1326; padding:2px 6px; border-radius:6px; border:1px solid #18224a; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>🚀 FarWare — جاهز للنشر برفع واحد فقط</h1>
+        <p>هذه نسخة ثابتة (Static) تعمل مباشرة على GitHub Pages بدون بناء أو إعدادات إضافية.</p>
+        <div class="grid">
+          <div class="tile"><span class="ok">✓</span> صفحة رئيسية</div>
+          <div class="tile"><span class="ok">✓</span> دعم RTL</div>
+          <div class="tile"><span class="ok">✓</span> متوافق مع GitHub Pages</div>
+          <div class="tile"><span class="ok">✓</span> 404.html لمسارات SPA</div>
+        </div>
+        <p>لإطلاق الموقع مباشرة:</p>
+        <ol>
+          <li>أنشئ مستودع باسم <code>USERNAME.github.io</code> ثم ارفع هذه الملفات → يشتغل فورًا على <code>https://USERNAME.github.io/</code></li>
+          <li>أو ارفعها داخل مجلد <code>docs</code> في أي مستودع، ثم اختر Pages = main + /docs.</li>
+        </ol>
+        <a class="btn" href="./">تحديث الصفحة</a>
+        <footer>FarWare One‑Upload • يعمل من دون أي بناء (build)</footer>
+      </div>
+    </div>
+    <script>console.log("FarWare One‑Upload is live.");</script>
+  </body>
+</html>
